@@ -144,7 +144,7 @@ function responseReceivedHandler() {
 for (let x = 0; x < USBLS_Codes.length; x++) {
   let URL_Start = "https://api.bls.gov/publicAPI/v2/timeseries/data/CEU"
   let URL_Middle = "00000001?registrationkey="
-  let URL_Key = "f23ed5f6586c4af68087aa98e1ee4eae"
+  let URL_Key = ""
   //Input Youe Own API Key Above
   let xhr = new XMLHttpRequest();
   xhr.addEventListener("load", responseReceivedHandler);
